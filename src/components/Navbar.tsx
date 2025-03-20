@@ -19,16 +19,15 @@ const Navbar = () => {
                             className={buttonVariants({
                                 variant: "ghost",
                                 size: 'sm'
-                            })}>Pricing</Link>
+                            })}>Pricing
+                        </Link>
                         <LoginLink
-                            href='/pricing'
                             className={buttonVariants({
                                 variant: "ghost",
                                 size: 'sm'
                             })}
                         >Sign in</LoginLink>
                         <RegisterLink
-                            href='/pricing'
                             className={buttonVariants({
                                 size: 'sm'
                             })}
